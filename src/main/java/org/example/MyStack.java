@@ -14,6 +14,7 @@ public class MyStack<E> extends ArrayList<E> {
         E e = get(size() - 1);
         remove(size() -1 );
         return e;
+
     }
 
 }
